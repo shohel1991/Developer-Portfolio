@@ -3,6 +3,12 @@
   font-family: "Open Sans", sans-serif;
   
 }
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png') ;
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 
 /* Header and nav style */
 nav{
@@ -61,3 +67,30 @@ nav li{
 
 }
 
+main{
+    max-width: 11440px;
+    margin: 0 auto;
+}
+
+/* About section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px, 150px ;
+
+
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+
+.section-description{
+    color: #757757;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
