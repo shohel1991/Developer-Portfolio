@@ -1,13 +1,23 @@
 * {
     margin: 0;
-    font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  
 }
 
+/* Header and nav style */
+nav{
+    display: flex;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+}
+nav li{
+    list-style: none;
 }
 .text-primary{
     color: #FD6E0A;
 
 }
+
+
