@@ -68,29 +68,48 @@ nav li{
 }
 
 main{
-    max-width: 11440px;
-    margin: 0 auto;
+    max-width:1140px;
+    margin:0 auto;
 }
 
 /* About section style */
 .about{
     margin-top: 130px;
-    background: #FFF8F3;
-    border-radius: 10px;
-    padding: 130px, 150px ;
+    background: rebeccapurple;
+    border-radius: 130px;
+    padding: 131px 157px;
+    text-align: center;
 
 
 }
 
 .section-title{
     text-align: center;
-    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom:30px;
 
 }
 
 .section-description{
     color: #757757;
-    font-size: 18px;
-    margin-bottom: 30px;
+    font-size:18px;
+    margin-bottom:30px;
 
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .info-title{
+    font-size: 20px;
+    color: #757757;
+}
+
+.info-description{
+     font-weight: 700;
+     font-size: 20px;
+     color: #474747;
 }
