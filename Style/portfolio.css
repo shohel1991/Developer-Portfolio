@@ -138,3 +138,39 @@ main{
 h3{
     text-decoration: underline rebeccapurple;
 }
+/* resume Style  */
+.resume{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+    
+
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757757;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757757;
+    
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
